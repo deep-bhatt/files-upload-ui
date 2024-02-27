@@ -1,0 +1,13 @@
+.file-view-container {
+    max-width: 800px; /* Adjust based on your preference */
+    margin: 0 auto; /* Centers the content */
+  }
+
+.file-item {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.file-item:hover {
+    background-color: #f8f9fa; /* Light hover effect */
+}

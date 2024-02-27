@@ -1,0 +1,29 @@
+/* FolderView.css */
+.list-group-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+.list-group-item:hover {
+    background-color: #f0f0f0; /* Light grey, similar to Windows hover effect */
+}
+
+.fa-folder {
+    color: #f2d600; /* Folder icon color */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.folder-view-container {
+    max-width: 600px; /* Adjust this value to suit your design */
+    margin: 20px auto; /* Adds top spacing and centers horizontally */
+}
+
+.folder-item {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.folder-item:hover {
+    background-color: #f0f0f0; /* A slight hover effect for better UX */
+}
